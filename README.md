@@ -1,7 +1,7 @@
 # steering
 Steering overthinking DEEPSEEK-R1-LLAMA-8B 
 
-**Отчёт по эксперименту:** Влияние стирингом в сторону размышлений на качество сложения дробей в DEEPSEEK-R1-LLAMA-8B
+**Отчёт по эксперименту:** Влияние стиринга в сторону размышлений на качество сложения дробей в DEEPSEEK-R1-LLAMA-8B
 
 ---
 
@@ -16,7 +16,7 @@ Steering overthinking DEEPSEEK-R1-LLAMA-8B
    - Создано 10 задач «складывание двух дробей»: числители в диапазоне \[-10; 15\], знаменатели в \[1; 15\].  
 
 2. **Взаимодействие с моделью**  
-   - Использован HTTP-API Neuronpedia:  `POST https://www.neuronpedia.org/api/steer`.  
+   - Использован HTTP-API Neuronpedia: `POST https://www.neuronpedia.org/api/steer`.  
    - Steering применялся к нейрону `index=30939` в слое `15-llamascope-slimpj-res-32k`.
 
 3. **Параметры steering**  
@@ -55,7 +55,7 @@ Steering overthinking DEEPSEEK-R1-LLAMA-8B
 ---
 
 ## Выводы  
-Steering может скорректировать поведение LLM в задачах вычисления, что может улучишить резултаты работы в тех или иных задачах. 
+Steering может скорректировать поведение LLM , что может улучишить резултаты работы в тех или иных задачах. 
 
 ---
 
